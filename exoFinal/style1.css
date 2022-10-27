@@ -1,0 +1,109 @@
+nav,footer {
+    background-color: black;  
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:flex-start;
+    list-style: none ;
+}
+.menu{
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    height: 100%;
+}
+a{
+    color: aliceblue;
+    padding-right: 5px;
+}
+#h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 50%;
+    display :flex;
+    justify-content: flex-end;
+}
+.entête{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 15px;
+}
+.logo{
+    width:20%;
+    height: auto;
+    display:flex;
+    margin-right: 30%;
+}
+
+article{
+    flex-direction: column;
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.colonne{
+    background-color: grey;
+    text-align: left;
+    width: 30%;
+}
+.s1{
+   flex-direction: column;
+   background-color:cadetblue;
+
+}
+
+.list2{
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    height: 100%;
+}
+.promojpg{
+    box-sizing: border-box;
+    width: 100%;
+}
+.titre1{
+    border-bottom: 2px solid grey;
+}
+h2{
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 120%;
+    color: red;
+}
+
+#sujet{
+    font-size: 70%;
+}
+
+/* Media screen à placer ici */
+@media screen and (max-width: 768px){
+	html{
+		font-size: 10px;
+	}
+	.colonne{
+		display:none;
+	}
+	article{
+		width: 100%;
+		font-size: 70%;
+	}
+	
+	.logo{
+		width: 40%;
+		height: auto;
+	}
+	.h1{
+		font-size: 80%;
+	}
+	.menu, .list2{
+		font-size: 80%;
+		display:flex;
+		flex-direction:column;
+		padding-left: 0%;
+		
+	}
+	.barbeuc{
+		width: 50px;
+	}
+}
